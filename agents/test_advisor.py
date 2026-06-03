@@ -2,7 +2,7 @@
 import sys, json, requests
 from databricks.sdk import WorkspaceClient
 
-ENDPOINT = "mas-138f2af1-endpoint"
+ENDPOINT = "mas-d4e8c021-endpoint"
 w = WorkspaceClient(profile="DEFAULT")
 cfg = w.config
 prompt = sys.argv[1] if len(sys.argv) > 1 else (

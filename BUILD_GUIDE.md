@@ -220,7 +220,7 @@ To retry native KA later (once Databricks confirms a server-side fix): delete th
 | Genie Space | `01f15eca8e531019982990a65ade688e` |
 | UC Function (classifier) | `mlops_pj.coverage_gap.classify_life_change` |
 | UC Function (policy lookup) | `mlops_pj.coverage_gap.policy_lookup` (ai_query over `ka-924e4b7c-endpoint`) |
-| Supervisor Agent | MAS id `138f2af1-9ba2-4f8f-a93b-7d5aec8174a0`, endpoint `mas-138f2af1-endpoint` |
+| Supervisor Agent | MAS id `d4e8c021-1fd9-47a1-b1e8-96ed2aded105`, endpoint `mas-d4e8c021-endpoint` |
 
 ---
 
@@ -251,7 +251,7 @@ Expected: food delivery is business / hire-and-reward use, excluded under the cu
 
 ## 11. Where to demo
 
-- AI Playground -> endpoint `mas-138f2af1-endpoint` for the full advisor.
+- AI Playground -> endpoint `mas-d4e8c021-endpoint` for the full advisor.
 - AI Playground -> `ka-924e4b7c-endpoint` for the policy assistant alone.
 - Genie -> "Allianz Customer Profile Analyst" space for the CRM agent alone.
 - Agents page shows the Knowledge Assistant and Supervisor Agent tiles.

@@ -12,7 +12,7 @@ All assets live in Unity Catalog under `mlops_pj.coverage_gap` on the `DEFAULT` 
 | Allianz Customer Profile Analyst | Genie Space (synthetic CRM) | space `01f15eca8e531019982990a65ade688e` |
 | classify_life_change | UC Function (ai_query / Claude) | `mlops_pj.coverage_gap.classify_life_change` |
 | policy_lookup | UC Function (ai_query over the KA endpoint) - how the supervisor reads the policy | `mlops_pj.coverage_gap.policy_lookup` |
-| Allianz Coverage Gap Advisor | Supervisor Agent (orchestrates classifier + Genie + policy_lookup) | MAS id `138f2af1-9ba2-4f8f-a93b-7d5aec8174a0`, endpoint `mas-138f2af1-endpoint` |
+| Allianz Coverage Gap Advisor | Supervisor Agent (orchestrates classifier + Genie + policy_lookup) | MAS id `d4e8c021-1fd9-47a1-b1e8-96ed2aded105`, endpoint `mas-d4e8c021-endpoint` |
 
 The supervisor now **cites the policy section for every gap** (e.g. "Contents section 27 - Liability to the public", "Section 28 - Employer's liability, Silver/Gold only"), pulled live from the DOI booklets via `policy_lookup`. The standalone Policy Analyst KA is still available in the AI Playground for the "ask the policy directly" moment.
 
@@ -96,7 +96,7 @@ Then run the motor follow-up to show breadth:
 This is decision support for the broker - grounded in the real policy wording and the customer's actual profile - not customer advice. Same pattern extends to every product line and every CRM field.
 
 ## Where to run it
-- AI Playground -> select endpoint `mas-138f2af1-endpoint` (the advisor) for Act 3.
+- AI Playground -> select endpoint `mas-d4e8c021-endpoint` (the advisor) for Act 3.
 - For Act 2, select `ka-924e4b7c-endpoint` (policy) and open the Genie space `Allianz Customer Profile Analyst`.
 - Agents page lists the Knowledge Assistant and Supervisor Agent tiles for a UI view.
 
