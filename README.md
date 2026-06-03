@@ -106,3 +106,16 @@ Resource identifiers for this build are listed in [`BUILD_GUIDE.md`](BUILD_GUIDE
 
 - This is **decision support** for brokers/adjusters grounded in the real policy wording and the customer's actual profile — not customer advice.
 - Synthetic CRM cover tiers and sublimits are aligned to the real Allianz DOI booklets, so every flagged gap is genuine and defensible.
+
+---
+
+## Disclaimer
+
+THIS REPOSITORY AND ITS CONTENTS ARE PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. **USE AT YOUR OWN RISK.**
+
+- This is a **demo / proof-of-concept** for illustrative purposes only. It is **not** a production system, and it is **not** insurance, legal, financial, or professional advice.
+- All customer data is **synthetic**. Any resemblance to real individuals, policies, or claims is coincidental. The Allianz Document of Insurance (DOI) PDFs are included for demonstration only and remain the property of their respective owners.
+- AI-generated outputs may be **inaccurate, incomplete, or out of date**. Always verify against the authoritative policy wording and applicable underwriting guidelines before relying on any result. The authors and contributors accept **no liability** for any loss or damage arising from use of this material.
+- This repository is **not an official Allianz or Databricks product** and is not endorsed by either. All trademarks are the property of their respective owners.
+
+To the maximum extent permitted by applicable law, in no event shall the authors or contributors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with this repository or its use.
